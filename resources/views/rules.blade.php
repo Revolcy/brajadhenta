@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/images/brajadhentahead.png" type="image/x-icon">
     <script src="{{ asset('js/home.js') }}" defer></script>
+    <link href="{{ asset('css/output.css') }}" rel="stylesheet">
     <title>Rules</title>
     {{-- Font --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

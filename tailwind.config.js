@@ -5,6 +5,7 @@ export default {
         "./resources/**/*.js",
         "./resources/**/*.vue",
     ],
+    darkMode: false, // Menonaktifkan dark mode
     theme: {
         extend: {
             fontFamily: {
@@ -15,6 +16,6 @@ export default {
     },
     plugins: [require("daisyui")],
     daisyui: {
-        themes: ["light"], 
+        themes: ["light"],
     },
 };

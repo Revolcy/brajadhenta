@@ -27,8 +27,8 @@
             <li><a href="https://maps.app.goo.gl/TMnzzfJ83nbbzsyAA" target="_blank">Maps</a>
             </li>
             <li><a href="{{ url('/rules') }}">Rules</a></li>
-            <li><a href="{{ asset('files/RUNDOWN FUTSAL BRAJADHENTA CUP.docx') }}"
-                    download="RUNDOWN FUTSAL BRAJADHENTA CUP.docx">Rundown</a></li>
+            <li><a href="{{ asset('files/Rundown Brajadhenta Cup.pdf') }}"
+                    download="Rundown Brajadhenta Cup.pdf">Rundown</a></li>
             <li><a href="{{ url('/contact') }}">Contact Us</a></li>
         </ul>
     </div>
@@ -40,8 +40,8 @@
     <ul class="menu bg-base-100 p-4 font-poppins">
         <li><a href="https://maps.app.goo.gl/TMnzzfJ83nbbzsyAA" target="_blank">Maps</a></li>
         <li><a href="{{ url('/rules') }}">Rules</a></li>
-        <li><a href="{{ asset('files/RUNDOWN FUTSAL BRAJADHENTA CUP.docx') }}"
-                download="RUNDOWN FUTSAL BRAJADHENTA CUP.docx">Rundown</a></li>
+        <li><a href="{{ asset('files/Rundown Brajadhenta Cup.pdf') }}"
+                download="Rundown Brajadhenta Cup.pdf">Rundown</a></li>
         <li><a href="{{ url('/contact') }}">Contact Us</a></li>
     </ul>
 </div>

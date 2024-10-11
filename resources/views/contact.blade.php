@@ -18,8 +18,8 @@
     {{-- Font End --}}
     {{-- FontAwesome Icons for WhatsApp and Email --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <link rel="stylesheet" href="{{ asset('/build/assets/app-bdjdnTuF.css') }}">
-    <script src="{{ asset('build/assets/app-z-Rg4TxU.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('/build/assets/app-CyuejeMz.css') }}">
+    <script src="{{ asset('/build/assets/app-z-Rg4TxU.js') }}"></script>
 </head>
 
 <body>

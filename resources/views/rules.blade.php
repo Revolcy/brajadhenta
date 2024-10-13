@@ -131,20 +131,13 @@
 
         <!-- Download Formulir & Guidebook Section -->
         <section id="downloads" class="mt-10 text-center">
-            <h2 class="text-xl font-extrabold mb-6 text-gray-900 tracking-wide font-montserrat">Download Formulir &
+            <h2 class="text-xl font-extrabold mb-6 text-gray-900 tracking-wide font-montserrat">Download
                 Guidebook</h2>
-            <p class="mb-6 text-lg text-gray-600">Dapatkan informasi lengkap dan formulir pendaftaran melalui tombol di
+            <p class="mb-6 text-lg text-gray-600">Dapatkan informasi lengkap melalui tombol di
                 bawah ini.</p>
 
             <!-- Flexbox Layout for Buttons -->
             <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <!-- Download Formulir Button -->
-                <button class="btn btn-warning font-poppins font-bold w-full sm:w-auto">
-                    <a href="/path/to/formulir-pendaftaran.pdf" download>
-                        Download Formulir Pendaftaran
-                    </a>
-                </button>
-
                 <!-- Download Guidebook Button -->
                 <button class="btn btn-warning font-poppins font-bold w-full sm:w-auto">
                     <a href="{{ asset('files/Guidebook Brajadhenta Cup.pdf') }}"

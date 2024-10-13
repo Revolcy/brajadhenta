@@ -37,7 +37,9 @@
                 <p class="mb-5 text-lg font-semibold font-poppins">
                     Ayo tunjukkan kemampuan terbaikmu!
                 </p>
-                <button class="btn btn-warning font-montserrat font-bold ">Daftar Sekarang</button>
+                <button class="btn btn-warning font-montserrat font-bold ">
+                    <a href="https://forms.gle/5mHgBn85Q4CAdb2HA" target="_blank">Daftar Sekarang</a>
+                </button>
             </div>
         </div>
     </div>

@@ -84,13 +84,11 @@
                     <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                         Brajadhenta Cup</h1>
                     <p class="mt-6 text-lg leading-8 text-gray-700 lg:text-xl">
-                        Brajadhenta Cup adalah ajang kompetisi olahraga yang tidak hanya menonjolkan keterampilan
-                        atletik,
-                        tetapi juga menumbuhkan semangat sportivitas dan kerja sama. <br>Acara ini mengundang
-                        partisipasi
-                        dari berbagai sekolah di Solo Raya, memberikan kesempatan kepada siswa untuk berkompetisi dengan
-                        tim
-                        dari luar sekolah, serta memperluas jaringan sosial mereka.
+                        Brajadhenta Cup adalah ajang kompetisi futsal yang tidak hanya menonjolkan keterampilan bermain
+                        bola, tetapi juga menumbuhkan semangat sportivitas dan kerja sama tim. Acara ini mengundang
+                        partisipasi dari berbagai sekolah di Solo Raya, memberikan kesempatan kepada siswa untuk
+                        berkompetisi di lapangan futsal melawan tim-tim dari luar sekolah, serta memperluas jaringan
+                        sosial mereka.
                     </p>
                 </div>
             </div>

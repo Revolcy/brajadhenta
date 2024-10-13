@@ -1,5 +1,5 @@
 {{-- Navbar --}}
-<div class="navbar bg-base-100">
+<div class="navbar bg-base-100 fixed top-0 left-0 w-full z-50 shadow-md">
     <!-- Avatar and Logo -->
     <div class="avatar transition-transform duration-300 ease-in-out hover:scale-105">
         <div class="w-12">
@@ -13,10 +13,16 @@
     <!-- Hamburger Menu Button for Small Screens -->
     <div class="block lg:hidden">
         <button id="hamburger" class="btn btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            <!-- Default Hamburger Icon -->
+            <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 class="inline-block h-5 w-5 stroke-current transition-transform duration-300 ease-in-out hover:rotate-90">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
                 </path>
+            </svg>
+            <!-- X Icon (Initially Hidden) -->
+            <svg id="close-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                class="hidden h-5 w-5 stroke-current transition-transform duration-300 ease-in-out">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
             </svg>
         </button>
     </div>
@@ -24,8 +30,7 @@
     <!-- Navbar Menu for Larger Screens -->
     <div class="flex-none hidden lg:block">
         <ul class="menu menu-horizontal px-1 font-poppins">
-            <li><a href="https://maps.app.goo.gl/TMnzzfJ83nbbzsyAA" target="_blank">Maps</a>
-            </li>
+            <li><a href="https://maps.app.goo.gl/TMnzzfJ83nbbzsyAA" target="_blank">Maps</a></li>
             <li><a href="{{ url('/rules') }}">Rules</a></li>
             <li><a href="{{ asset('files/Rundown Brajadhenta Cup.pdf') }}"
                     download="Rundown Brajadhenta Cup.pdf">Rundown</a></li>

@@ -80,11 +80,14 @@
             <!-- Left Section: Heading and Intro Text -->
             <div class="lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:px-8">
                 <div class="lg:max-w-lg">
-                    <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+                    <h1 class="mt-2 text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                         Brajadhenta Cup</h1>
-                    <p class="mt-6 text-lg leading-8 text-gray-700 lg:text-xl">
-                        Brajadhenta Cup adalah ajang kompetisi futsal yang tidak hanya menonjolkan keterampilan bermain
-                        bola, tetapi juga menumbuhkan semangat sportivitas dan kerja sama tim. Acara ini mengundang
+                    <p class="mt-6 text-5l leading-8 text-gray-700 lg:text-xl">
+                        Brajadhenta Cup adalah ajang kompetisi futsal yang diselenggarakan oleh OSIS & MPK SMA Negeri
+                        1 Tawangsari dalam rangka memperingati Dies Natalis ke 41.<br>
+                        Tidak hanya menonjolkan keterampilan bermain
+                        bola, tetapi juga menumbuhkan semangat sportivitas dan kerja sama tim.<br>
+                        Acara ini mengundang
                         partisipasi dari berbagai sekolah di Solo Raya, memberikan kesempatan kepada siswa untuk
                         berkompetisi di lapangan futsal melawan tim-tim dari luar sekolah, serta memperluas jaringan
                         sosial mereka.

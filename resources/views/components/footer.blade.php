@@ -1,6 +1,6 @@
 <footer class="footer bg-white text-neutral items-center p-4 flex justify-between">
         <aside class="flex items-center font-montserrat">
-            <p>MPKOSMANTA©-All right reserved</p>
+            <a href="https://www.instagram.com/mpkosismanta" target="_blank">MPKOSIS</a>
         </aside>
         <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             {{-- Youtube --}}
@@ -13,7 +13,7 @@
                 </svg>
             </a>
             {{-- Instagram --}}
-            <a href="https://www.instagram.com/mpkosismanta/" target="_blank">
+            <a href="https://www.instagram.com/havenkrasta" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                     class="fill-current text-black">
                     <path fill-rule="evenodd" clip-rule="evenodd"

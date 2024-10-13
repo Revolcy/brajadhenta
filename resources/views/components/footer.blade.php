@@ -27,7 +27,6 @@
                     fill="#17171f" />
             </svg>
         </a>
-        {{-- Tiktok --}}
         <!-- TikTok -->
         <a href="https://www.tiktok.com/@mpkosissman1tawangsari" target="_blank">
             <svg fill="#000000" width="24" height="24" viewBox="0 0 512 512" id="icons"

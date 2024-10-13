@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/images/brajadhentahead.png" type="image/x-icon">
+    <meta name="description"
+        content="Brajadhenta Cup 2024 adalah kompetisi olahraga terbesar di Solo Raya, menonjolkan sportivitas dan kerja sama antar sekolah. Daftar sekarang!">
+    <meta name="keywords"
+        content="Brajadhenta Cup, kompetisi olahraga Solo Raya, futsal, basket, olahraga sekolah, Solo Raya sports competition">
     <link href="{{ asset('css/output.css') }}" rel="stylesheet">
     <script src="{{ asset('js/home.js') }}" defer></script>
     <title>Contact</title>
     {{-- Font --}}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
     <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
         rel="stylesheet">
     {{-- Font End --}}
@@ -27,7 +33,7 @@
     <x-navbar></x-navbar>
 
     {{-- Hero --}}
-    <div class="hero min-h-dvh" style="background-image: url(/images/brajadhenta.png); z-index: 10;">
+    <div class="hero min-h-dvh" style="background-image: url(/images/brajadhenta.png); z-index: 10;" loadig="lazy">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-neutral-content text-center">
             <div class="max-w-md">
@@ -46,7 +52,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <!-- WhatsApp Contact 1 -->
             <div
-                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center">
+                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center w-full max-w-sm mx-auto">
                 <i class="fab fa-whatsapp text-5xl text-green-600 mb-6"></i>
                 <h3 class="text-3xl font-semibold text-gray-800">WhatsApp - Apend</h3>
                 <p class="text-xl text-gray-600 mt-4">+62 882-3968-4714</p>
@@ -57,7 +63,7 @@
             </div>
             <!-- Email Contact -->
             <div
-                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center mx-auto max-w-lg">
+                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center w-full max-w-sm mx-auto">
                 <i class="fas fa-envelope text-5xl text-blue-600 mb-6"></i>
                 <h3 class="text-3xl font-semibold text-gray-800">Email Us</h3>
                 <p class="text-xl text-gray-600 mt-4">krastasmanta1983@gmail.com</p>
@@ -68,7 +74,7 @@
             </div>
             <!-- WhatsApp Contact 2 -->
             <div
-                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center">
+                class="bg-white p-8 rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300 ease-in-out text-center w-full max-w-sm mx-auto">
                 <i class="fab fa-whatsapp text-5xl text-green-600 mb-6"></i>
                 <h3 class="text-3xl font-semibold text-gray-800">WhatsApp - Selfi</h3>
                 <p class="text-xl text-gray-600 mt-4">+62 858-4212-2137</p>
@@ -79,6 +85,7 @@
             </div>
         </div>
     </div>
+
 
     {{-- Contact Section End --}}
 

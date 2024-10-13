@@ -1,37 +1,29 @@
-// Hamburger Menu Toggle
 const hamburger = document.getElementById("hamburger");
 const mobileMenu = document.getElementById("mobile-menu");
 const overlay = document.getElementById("overlay");
+const hamburgerIcon = document.getElementById("hamburger-icon");
+const closeIcon = document.getElementById("close-icon");
 
-// Function to open sidebar
-function openSidebar() {
-    mobileMenu.classList.remove("hidden", "-translate-x-full"); // Remove 'hidden' and 'translate-x-full'
-    mobileMenu.classList.add("translate-x-0"); // Add 'translate-x-0'
-    overlay.classList.remove("hidden");
-}
+hamburger.addEventListener("click", function () {
+    // Toggle sidebar visibility
+    mobileMenu.classList.toggle("hidden");
+    mobileMenu.classList.toggle("-translate-x-full");
 
-// Function to close sidebar
-function closeSidebar() {
-    mobileMenu.classList.remove("translate-x-0"); // Remove 'translate-x-0'
-    mobileMenu.classList.add("-translate-x-full"); // Add '-translate-x-full'
-    setTimeout(() => {
-        mobileMenu.classList.add("hidden"); // Add 'hidden' after animation ends
-    }, 300); // Match the duration of the CSS animation (300ms)
-    overlay.classList.add("hidden");
-}
+    // Toggle overlay visibility
+    overlay.classList.toggle("hidden");
 
-// Toggle sidebar on hamburger click
-hamburger.addEventListener("click", () => {
-    if (mobileMenu.classList.contains("hidden")) {
-        openSidebar();
-    } else {
-        closeSidebar();
-    }
+    // Toggle between hamburger icon and close icon
+    hamburgerIcon.classList.toggle("hidden");
+    closeIcon.classList.toggle("hidden");
 });
 
-// Close sidebar on overlay click
-overlay.addEventListener("click", () => {
-    closeSidebar();
+// Close sidebar and overlay when overlay is clicked
+overlay.addEventListener("click", function () {
+    mobileMenu.classList.add("hidden");
+    mobileMenu.classList.add("-translate-x-full");
+    overlay.classList.add("hidden");
+    hamburgerIcon.classList.remove("hidden");
+    closeIcon.classList.add("hidden");
 });
 
 // Timer

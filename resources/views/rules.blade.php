@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="/images/brajadhentahead.png" type="image/x-icon">
-    <script src="{{ asset('js/home.js') }}" defer></script>
+    <meta name="description"
+        content="Brajadhenta Cup 2024 adalah kompetisi olahraga terbesar di Solo Raya, menonjolkan sportivitas dan kerja sama antar sekolah. Daftar sekarang!">
+    <meta name="keywords"
+        content="Brajadhenta Cup, kompetisi olahraga Solo Raya, futsal, basket, olahraga sekolah, Solo Raya sports competition">
     <link href="{{ asset('css/output.css') }}" rel="stylesheet">
+    <script src="{{ asset('js/home.js') }}" defer></script>
     <title>Rules</title>
     {{-- Font --}}
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -25,7 +29,7 @@
     <x-navbar></x-navbar>
 
     {{-- Hero --}}
-    <div class="hero min-h-dvh" style="background-image: url(/images/brajadhenta.png); z-index: 10;">
+    <div class="hero min-h-dvh" style="background-image: url(/images/brajadhenta.png); z-index: 10;" loading="lazy">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-neutral-content text-center">
             <div class="max-w-md">
@@ -144,7 +148,8 @@
 
                 <!-- Download Guidebook Button -->
                 <button class="btn btn-warning font-poppins font-bold w-full sm:w-auto">
-                    <a href="/path/to/guidebook.pdf" download>
+                    <a href="{{ asset('files/Guidebook Brajadhenta Cup.pdf') }}"
+                        download="Guidebook Brajadhenta Cup.pdf">
                         Download Guidebook
                     </a>
                 </button>

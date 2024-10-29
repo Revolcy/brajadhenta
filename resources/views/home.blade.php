@@ -37,12 +37,19 @@
                 <p class="mb-5 text-lg font-semibold font-poppins">
                     Ayo tunjukkan kemampuan terbaikmu!
                 </p>
-                <button class="btn btn-warning font-montserrat font-bold ">
+                <button class="btn btn-warning font-montserrat font-bold px-4 py-2">
                     <a href="https://forms.gle/5mHgBn85Q4CAdb2HA" target="_blank">Daftar Sekarang</a>
                 </button>
+                <p class="text-sm font-poppins font-semibold mt-2">
+                    No Rekening:
+                    <span id="accountNumber" class="text-mono cursor-pointer text-blue-500 underline"
+                        onclick="copyAccountNumber()">359301010109507</span>
+                    <span class="text-mono text-blue-500 underline">(Selfitri BRI)</span>
+                </p>
             </div>
         </div>
     </div>
+
     {{-- Hero End --}}
 
     {{-- Timer  --}}

@@ -62,3 +62,16 @@ const updateCountdown = () => {
 // Update countdown setiap detik
 setInterval(updateCountdown, 1000);
 // Timer End
+
+// No Rekening Copas
+function copyAccountNumber() {
+    const accountNumber = document.getElementById("accountNumber").innerText;
+    navigator.clipboard
+        .writeText(accountNumber)
+        .then(() => {
+            alert("Nomor rekening berhasil disalin!");
+        })
+        .catch((err) => {
+            console.error("Gagal menyalin teks: ", err);
+        });
+}
